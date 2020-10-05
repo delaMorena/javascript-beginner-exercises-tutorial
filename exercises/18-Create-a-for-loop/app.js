@@ -1,7 +1,7 @@
-/* This exercise should be moved before 17-Your first loop? */
+function standardsMaker() {
+    for (i= 1; i <= 300; i++) {
+        console.log (i + " yo preguntaré si estoy atascada");
+    }
+}
 
-// Declare and write your function here:
-
-
-// Calling the function:
 standardsMaker();
