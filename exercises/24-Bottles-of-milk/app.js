@@ -14,3 +14,25 @@ function sing() {
 }
 
 sing();
+/*codigo de alex:
+// Your code here:
+function BottlesMilk() {
+    cont = 99;
+    inicio = 99;
+
+    do {
+        if (cont == 1) {
+            console.log(cont+" bottle of milk on the wall, "+cont+" bottle of milk. Take one down and pass it around, no more bottles of milk on the wall.");
+        } else if (cont == 0) {
+            console.log("No more bottles of milk on the wall, no more bottles of milk. Go to the store and buy some more, "+inicio+" bottles of milk on the wall.");   
+        } else {
+            console.log(cont+" bottle of milk on the wall, "+cont+" bottle of milk. Take one down and pass it around, "+(cont - 1)+" bottles of milk on the wall.");
+            
+        }
+        cont--;
+
+    } while (cont >=0)
+}
+
+BottlesMilk();
+*/
